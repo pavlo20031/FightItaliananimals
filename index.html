@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Game Lobby</title>
+</head>
+<body>
+  <div class="lobby">
+    <div id="selectedCharacter">
+        <h2>Selected Character:</h2>
+        <p id="characterName"></p>
+        <img id="characterImage" src="" alt="Selected Character" style="width:100px;height:100px;">
+      </div>
+    <div class="menu">
+      <h1>Welcome to the Shooter Game</h1>
+      <!-- Посилання на сторінку гри -->
+      <a href="game.html"><button>Start Game</button></a>
+      <!-- Посилання на сторінку налаштувань -->
+      <a href="settings.html"><button>Settings</button></a>
+      <!-- Посилання на сторінку вибору тварини -->
+      <a href="choose-animal.html"><button>Choose Animal</button></a>
+      <a href="profile.html"><button>Go to Profile</button></a>
+    </div>
+  </div>
+
+  <!-- Audio для музики -->
+  <audio id="lobbyMusic" autoplay loop>
+    <source src="./audio/music.mp3" type="audio/mpeg">
+    Ваш браузер не підтримує відтворення аудіо.
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+

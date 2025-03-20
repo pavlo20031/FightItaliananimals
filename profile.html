@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Profile</title>
+</head>
+<body>
+  <div class="profile">
+    <a href="index.html" class="close-button">×</a>
+    <h1>Your Profile</h1>
+
+    <!-- Вибір іконки -->
+    <div class="profile-option">
+      <label for="icon">Choose Icon:</label>
+      <select id="icon">
+        <option value="icon1">🦸 Icon 1</option>
+        <option value="icon2">🐱 Icon 2</option>
+        <option value="icon3">🐉 Icon 3</option>
+      </select>
+    </div>
+
+    <!-- Ім'я користувача -->
+    <div class="profile-option">
+      <label for="username">Username:</label>
+      <input type="text" id="username" placeholder="Enter your name">
+    </div>
+
+    <!-- Показники -->
+    <div class="profile-stats">
+      <h3>Stats:</h3>
+      <p>Games Played: <span id="gamesPlayed">0</span></p>
+      <p>High Score: <span id="highScore">0</span></p>
+    </div>
+
+    <!-- Рейтинг -->
+    <div class="profile-rating">
+      <h3>Rating:</h3>
+      <p>Global Rank: <span id="globalRank">#1</span></p>
+    </div>
+  </div>
+
+  <script src="profile.js"></script>
+</body>
+</html>

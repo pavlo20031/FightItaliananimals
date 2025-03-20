@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Choose Your Character</title>
+</head>
+<body>
+  <div class="character-selection">
+    <a href="index.html" class="close-button">×</a>
+    <h1>Choose Your Character</h1>
+    <div class="characters-container">
+      <!-- Персонаж 1 -->
+      <div class="character-card" onclick="selectCharacter('Tralalero Tralala')">
+        <img src="./img/character1.png" alt="Tralalero Tralala">
+        <h3>Tralalero Tralala</h3>
+        <p>Fast and agile.</p>
+      </div>
+      
+      <!-- Персонаж 2 -->
+      <div class="character-card" onclick="selectCharacter('Bombardiro Crocodilo')">
+        <img src="./img/character2.png" alt="Bombardiro Crocodilo">
+        <h3>Bombardiro Crocodilo</h3>
+        <p>Strong and powerful.</p>
+      </div>      
+      <!-- Персонаж 3 -->
+      <div class="character-card" onclick="selectCharacter('Bobrito Bandito')">
+        <img src="./img/character3.png" alt="Bobrito Bandito">
+        <h3>Bobrito Bandito</h3>
+        <p>Smart and strategic.</p>
+      </div>      
+    </div>
+    <button onclick="confirmSelection()">Confirm Selection</button>
+  </div>
+
+  <script src="choose-character.js"></script>
+</body>
+</html>
