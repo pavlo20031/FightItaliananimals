@@ -248,3 +248,46 @@ body {
  #controls { position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); display: flex; gap: 10px; } 
  button { padding: 10px 15px; font-size: 18px; border: none; border-radius: 5px; background-color: #444; color: white; cursor: pointer; transition: background-color 0.3s ease; } 
  button:hover { background-color: #555; } 
+ #controls {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+#controls button {
+  padding: 10px 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #444;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#controls button:hover {
+  background-color: #555;
+}
+
+.lobby-akarii {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.akarii-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
